@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+   }
+
+.start-section{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.start-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    justify-content: center;
+    align-items: left;
+    height: 100vh;
+    width: 100%;
+    padding-left: 180px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.text-start-section {
+    margin-top: 0;
+}
+
+.text-p {
+    color: #fbb44c;
+}
+
+.container-p-i {
+    display: inline-flex;
+    gap: 30px;
+}
+
+.icon-container {
+    display: inline-flex;
+    gap: 20px;
+}
+
+.icon-item-microsoft {
+    height: 24px;
+    width: 111.46px;
+}
+
+.icon-item-adobe {
+    height: 24px;
+    width: 73.06px;
+}
+
+.icon-item-apple {
+    height: 24px;
+    width: 26.66px;
+}
+
+.icon-item-minister{
+    height: 24px;
+    width: 113.04px;
+}
+
+.button-1 {
+    height: 56px;
+    width: 260px;
+    border-radius: 5px;
+    border:1px solid var(--button-color);
+    background-color: var(--button-color);
+    color: #fff;
+}
+
+.button-1:hover {
+    background-color: var(--bg-color);
+    cursor: pointer;
+}
+
+.text-button-hpl {
+    text-decoration: none;
+    color: var(--text-light);
+}
+
+

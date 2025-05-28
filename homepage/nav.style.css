@@ -1,0 +1,64 @@
+header {
+    background-color: var(--bg-nav-color);
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--bg-nav-color);
+}
+
+.nav-container, .logo-nav {
+    margin-right: 50px;
+}
+
+.nav-content {
+    margin-left: 650px;
+}
+
+.logo-nav-img{
+    width: 164.59px;
+    height: 60px;
+}
+
+.nav-container, .nav-content{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-family:Verdana;
+  font-size: 11px;
+  gap: 10px;
+}
+
+.nav-container, .nav-content, .nav-link a {
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+    text-decoration: none;
+    color:var(--text-light);
+  }
+
+  .nav-select-bar {
+    color: var(--text-light);
+    background-color: var(--bg-nav-color);
+    border: none;
+    font-size: 11px;
+  }
+
+  .nav-select-bar:hover{
+    display: block;
+    color: var(--text-hover);
+
+  }
+
+  .nav-container, .nav-content, .nav-link, a:hover {
+    color:var(--text-hover);
+  }
+
+  /* media screen + in html pt sect2 */

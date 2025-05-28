@@ -1,0 +1,23 @@
+.parteners-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-ps-container {
+    display: inline;
+    margin: 0px 28px;
+    padding: 16px;
+}
+
+.icons-ps-block {
+    display: flex;
+}
+
+.icon-ps-item {
+    height: 100px;
+    width: 100px;
+    margin-left: 42px;
+    margin-right: 42px;
+}

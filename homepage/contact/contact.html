@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../nav.style.css">
+        <link rel="stylesheet" href="../color.style.css">
+        <link rel="stylesheet" href="../main.style.css">
+        <link rel="stylesheet" href="../cursuri/main.secondpage1.style.css">
+        <link rel="stylesheet" href="../footer.style.css">
+        <link rel="stylesheet" href="contact.section.style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+        <title>Contact</title>
+    </head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="logo-nav">
+                <a href="../homepage.html"><img class="logo-nav-img" src="../images/itschool-logo.png" alt=""></a>
+            </div>
+            <ul class="nav-content">
+                <li class="nav-link"><a href="../cursuri/cursuri.html">CURSURI ONLINE</a></li>
+                <select onchange="location.href=this.value" class="nav-select-bar">
+                    <option class="nav-select-option" value="../homepage.html">IT SCHOOL</option>
+                    <option class="nav-select-option" value="../about/about.html">DESPRE NOI</option>
+                </select>
+                <li class="nav-link"><a href="contact.html">CONTACT</a></li>
+        </nav> 
+    </header>
+
+    <main>
+        <section class="start-second-page-section">
+            <h1>Contact IT School</h1>
+        </section>
+
+        <section class="contact-section">
+            <h2>Informații generale</h2>
+            <p class="text-contact">Nu ai găsit ce căutai sau te putem ajuta și cu alte informații referitoare la programele de pregătire IT School? Suntem aici să te ajutăm. Îți reamintim că pe pagina FAQ regăsești o listă cu cele mai frecvente întrebări.</p>
+            <p class="text-contact">Ne poți găsi la:</p>
+
+            <div class="contact-container-max">
+                <ul class=".contact-container-min">
+                <li class="item-contact-container">
+                    <span><img class="item-icon-contact left-text" src="images-contact/icons8-smartphone-48.png" alt="">
+                    Mobil:</span>
+                    <span class="right-text">+40 737 880 420</span>
+                </li>
+
+                <li class="item-contact-container">
+                    <span><img class="item-icon-contact left-text" src="images-contact/icons8-email-50.png" alt="">
+                    E-mail:</span>
+                    <span class="right-text">office@itschool.ro</span>
+                </li>
+
+                <li class="item-contact-container">
+                    <span><img class="item-icon-contact left-text" src="images-contact/icons8-earth-24.png" alt="">
+                    Facebook:</span>
+                    <span class="right-text">/ITSchool</span>
+                </li>
+
+                <li class="item-contact-container">
+                    <span><img class="item-icon-contact left-text" src="images-contact/icons8-clock-24.png" alt="">
+                    Program:</span>
+                    <span class="right-text">Luni - Vineri, de la 10:00 - 18:00</span>
+                </li>
+
+                <li class="item-contact-container">
+                    <span><img class="item-icon-contact left-text" src="images-contact/icons8-location-32.png" alt="">
+                    Sediu central:</span>
+                    <span class="right-text">Timișoara</span>
+                </li>
+                </ul>
+
+            <div class="contact-container-min">
+            </div>
+            <form class="form-contact" action="form.php" target="_blank" method="GET">
+                <label class="label-contact" for="fname">Nume Prenume:</label>
+                <input class="input-contact" type="text" id="name" name="name" placeholder="Ex: Ionescu Ion" required /><br />
+
+                <label class="label-contact" for="email">Adresa de email:</label>
+                <input class="input-contact" type="email" id="email" name="email" placeholder="Ex: ionionescu@gmail.com" required /><br />
+
+                <label  class="label-contact"for="number">Telefon:</label>
+                <input class="input-contact" type="number" id="number" name="number" placeholder="Ex: 0722 234 567" required /><br />
+
+                <label class="label-contact" for="message">Mesajul tau:</label>
+                <textarea class="message-contact" id="message" name="message" required></textarea><br />
+
+                <div><input class="button-form-contact" type="submit" name="button" value="Trimite" />
+                </div>
+            </form>
+        </div>
+        </section>
+
+    </main>
+</body>
+
+<footer>
+    <div class="footer-section">
+        <p class="text-footer">IT School România © 2021. Toate drepturile rezervate.</p>
+    </div>
+</footer>
+</html>

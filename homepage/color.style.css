@@ -1,0 +1,16 @@
+:root {
+    --bg-color-footer: #101d42;
+    --bg-color-cs: #fff;
+    --text-h2: #101d42;
+    --text-h3: #101D42;
+    --bg-text: #fbb44c;
+    --bar: #2bb686;
+    --bg-color-as: #dfedf5;
+    --bg-color:#141e4c;
+    --button-color: #2bb686;
+    --bg-nav-color:#141e4c;
+    --text-hover: #fbb44c;
+    --text-light: #eaeaea;
+    --text-dark: #2b2922;
+    --text-light-secondary: #8E8E8E
+}

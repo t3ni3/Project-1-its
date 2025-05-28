@@ -1,0 +1,16 @@
+footer {
+    background-color: var(--bg-color-footer);
+}
+
+.footer-section {
+    margin: 0px 28px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-footer {
+    font-size: 12px;
+    color: var(--text-light);
+}
