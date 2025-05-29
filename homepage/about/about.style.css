@@ -28,11 +28,16 @@
 }
 
 .name-trainer {
-    color: fbb44c;
+    position: absolute;
+    color: var(--text-hover);
+    font-weight: 300;
     font-size: 16px;
     background-color: #141e4ce6;
-    margin: -25px 0px 16px;
+    margin: 50px 0px 16px;
     padding: 4px 0px;
+    width: 262.4px;
+    height: 32;
+    border-radius: 5px;
 }
 
 .span-text {

@@ -20,4 +20,9 @@
     width: 100px;
     margin-left: 42px;
     margin-right: 42px;
+    filter: grayscale(100%);
+}
+
+.icon-ps-item:hover {
+    filter: grayscale(0%);
 }
