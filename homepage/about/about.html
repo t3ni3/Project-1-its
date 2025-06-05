@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="../nav.style.css">
         <link rel="stylesheet" href="../color.style.css">
         <link rel="stylesheet" href="../main.style.css">
@@ -17,17 +19,21 @@
 <body>
     <header>
         <nav class="nav-container">
-            <div class="logo-nav">
-                <a href="../homepage.html"><img class="logo-nav-img" src="../images/itschool-logo.png" alt=""></a>
-            </div>
-            <ul class="nav-content">
-                <li class="nav-link"><a href="../cursuri/cursuri.html">CURSURI ONLINE</a></li>
-                <select onchange="location.href=this.value" class="nav-select-bar">
-                    <option class="nav-select-option" value="../homepage.html">IT SCHOOL</option>
-                    <option class="nav-select-option" value="about.html" selected>DESPRE NOI</option>
-                </select>
-                <li class="nav-link"><a href="../contact/contact.html">CONTACT</a></li>
-        </nav> 
+                <div class="logo-nav">
+                    <a href="../homepage.html"><img class="logo-nav-img" src="../images/itschool-logo.png" alt=""></a>
+                </div>
+                <ul class="nav-content">
+                    <li class="nav-link"><a href="../cursuri/cursuri.html">CURSURI ONLINE</a></li>
+                    <li class="nav-link dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          DESPRE NOI
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+                         <li><a class="dropdown-item" href="../homepage.html">IT SCHOOL</a></li>
+                         <li><a class="dropdown-item" href="about.html">DESPRE NOI</a></li>
+                        </ul>
+                    <li class="nav-link"><a href="../contact/contact.html">CONTACT</a></li>
+            </nav>
     </header>
 
     <main>
